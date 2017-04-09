@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+button {
+    padding: 5px 15px;
+    margin: .5%;
+    border-radius: 15px;
+}
+input {
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.account {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  margin-bottom: 2%;
+
+}
+.accounts {
+   width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5%;
+  margin-bottom: 2%;
+}
+
+.Check, .saving {
+  width: 300px;
+  height: 200px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.saving h4 {
+  font-size: 20px;
+}
+
+.Check h4 {
+  font-size: 20px;
+}
+
+.withdraw {
+  width: 80%;
+  height: 200px;
+}
+
+input {
+  padding: 30px 60px;
+}
+
+.belowBalance {
+  color: red;
+}
+.aboveBalance {
+  color: green;
+}
+
+.instructions {
+  width: 16%;
+  margin: 1%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: justify;
+  font-size: 15px;
+  color: red;
+}
+
+.instructions-span {
+   font-size: 12px;
+  color: black;
+}
