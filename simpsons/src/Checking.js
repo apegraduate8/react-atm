@@ -13,7 +13,6 @@ class Checking extends Component {
             this.state = {
                   balance: props.balance,
                   amount: "200.00",
-                  withdraw: 0.00
             }
       }
 

@@ -14,11 +14,7 @@ class Withdraw extends Component {
             super(props);
             this.state = {
                   in: undefined,
-                  balance: 0,
-                  deposti: 0,
                   withdraw: undefined,
-                  checking: 0,
-                  saving: "20.00",
             }
       }
 
@@ -89,7 +85,6 @@ class Withdraw extends Component {
                   <h1> Withdraw: { this.state.withdraw } </h1>
                   <input value={ this.state.input } onChange={ (e) =>  this.grabWith(e)  } />
                     <h2>{this.props.reach} </h2>
-                    <h2 className="transaction">{this.state.checking} </h2>
                      <Button func={this.calculate.bind(this)} text={ "Withdraw amount" } />
                      <Button func={this.calculate2.bind(this)} text={ "deposit amount" } />
 

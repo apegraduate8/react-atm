@@ -15,7 +15,6 @@ class Saving extends Component {
             this.state = {
                   balance: props.balance,
                   amount: "120.00",
-                  withdraw: 0.00
             }
       }
 
