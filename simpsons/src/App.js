@@ -7,17 +7,17 @@ import './App.css';
 
 class App extends Component {
 
-      constructor() {
-            super();
-            this.state = {
-                  a: new Account(),
-                  w: 3,
-                  c: "why",
-                  d: "200.00"
+      // constructor() {
+      //       super();
+      //       this.state = {
+      //             a: new Account(),
+      //             w: 3,
+      //             c: "why",
+      //             d: "200.00"
 
-            }
+      //       }
 
-      }
+      // }
       // show(){
       //   this.setState(function(aa) {
       //         let tina = new Withdraw();
